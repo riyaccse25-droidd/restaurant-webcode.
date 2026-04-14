@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pasta Bella - Italian Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>La Pasta Bella</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to La Pasta Bella</h2>
+        <p>Experience authentic Italian cuisine in a cozy ambiance.</p>
+    </section>
+
+    <section id="about">
+        <h2>Our Ambiance</h2>
+        <p>La Pasta Bella offers a warm and inviting atmosphere perfect for family dinners, romantic dates, or casual gatherings. Our restaurant features elegant decor with Italian influences, creating the perfect setting for your dining experience.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery Showcase</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="./PHOTOS/dining.jpg" alt="Elegant dining room interior" style="width:100%; height:200px; background-color:#f0f0f0; border:1px solid #ccc; border-radius:10px; object-fit:cover;">
+                <p>Golden Dining Hall</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./PHOTOS/table.jpg" alt="Intimate table setting" style="width:100%; height:200px; background-color:#f0f0f0; border:1px solid #ccc; border-radius:10px; object-fit:cover;">
+                <p>Elegant Table Setting</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./PHOTOS/candle.jpg" alt="Warm lighting in dining area" style="width:100%; height:200px; background-color:#f0f0f0; border:1px solid #ccc; border-radius:10px; object-fit:cover;">
+                <p>Warm Candlelit Ambience</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./PHOTOS/red pasta.jpg" alt="Authentic carbonara" style="width:100%; height:250px; background-color:#f0f0f0; border:1px solid #ccc; border-radius:10px; object-fit:cover;">
+                <p>Classic Carbonara</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./PHOTOS/gY pasta.jpg" alt="Fresh pesto pasta" style="width:100%; height:200px; background-color:#f0f0f0; border:1px solid #ccc; border-radius:10px; object-fit:cover;">
+                <p>Green Pesto Pasta</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./PHOTOS/14f9e7b6e71e8b8f88e11ead2b72223e.jpg" alt="Seafood linguine" style="width:100%; height:200px; background-color:#f0f0f0; border:1px solid #ccc; border-radius:10px; object-fit:cover;">
+                <p>Coastal Linguine</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./PHOTOS/terrace.jpg" alt="Beautiful outdoor seating" style="width:100%; height:200px; background-color:#f0f0f0; border:1px solid #ccc; border-radius:10px; object-fit:cover;">
+                <p>Garden Terrace Seating</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./PHOTOS/terace.jpg" alt="Garden view patio" style="width:100%; height:200px; background-color:#f0f0f0; border:1px solid #ccc; border-radius:10px; object-fit:cover;">
+                <p>Garden Patio</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./PHOTOS/816bcaf7ea1b600a5ec1a2614fca0ed6.jpg" alt="Head chef preparing pasta" style="width:100%; height:200px; background-color:#f0f0f0; border:1px solid #ccc; border-radius:10px; object-fit:cover;">
+                <p>Chef's Passion</p>
+            </div>
+        
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Spice & Heritage Menu</h2>
+        <div class="filter-buttons">
+            <button id="all-btn" class="active">All</button>
+            <button id="veg-btn">Vegetarian</button>
+            <button id="non-veg-btn">Non-Vegetarian</button>
+        </div>
+        <div class="menu-cards">
+            <!-- Vegetarian items -->
+            <div class="menu-card veg">
+                <h3>Masala Margherita Pizza</h3>
+                <p>Fresh tomatoes, mozzarella, basil</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹450</option>
+                        <option value="large">Large - ₹650</option>
+                    </select>
+                </div>
+            </div>
+            <div class="menu-card veg">
+                <h3>Green Pesto Pasta</h3>
+                <p>Basil pesto, pine nuts, parmesan</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹520</option>
+                        <option value="large">Large - ₹720</option>
+                    </select>
+                </div>
+            </div>
+            <div class="menu-card veg">
+                <h3>Paneer Caprese Salad</h3>
+                <p>Tomatoes, mozzarella, balsamic</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹380</option>
+                        <option value="large">Large - ₹520</option>
+                    </select>
+                </div>
+            </div>
+            <div class="menu-card veg">
+                <h3>Mushroom Masala Risotto</h3>
+                <p>Arborio rice, wild mushrooms, truffle oil</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹480</option>
+                        <option value="large">Large - ₹680</option>
+                    </select>
+                </div>
+            </div>
+            <div class="menu-card veg">
+                <h3>Eggplant Parmigiana</h3>
+                <p>Breaded eggplant, marinara, mozzarella</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹460</option>
+                        <option value="large">Large - ₹640</option>
+                    </select>
+                </div>
+            </div>
+            <div class="menu-card veg">
+                <h3>Spinach Ricotta Ravioli</h3>
+                <p>Homemade pasta, spinach filling, sage butter</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹550</option>
+                        <option value="large">Large - ₹750</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Non-vegetarian items -->
+            <div class="menu-card non-veg">
+                <h3>Regal Carbonara</h3>
+                <p>Bacon, eggs, parmesan, black pepper</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹580</option>
+                        <option value="large">Large - ₹780</option>
+                    </select>
+                </div>
+            </div>
+            <div class="menu-card non-veg">
+                <h3>Chicken Parmigiana</h3>
+                <p>Breaded chicken, marinara, mozzarella</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹620</option>
+                        <option value="large">Large - ₹820</option>
+                    </select>
+                </div>
+            </div>
+            <div class="menu-card non-veg">
+                <h3>Spiced Osso Buco</h3>
+                <p>Braised veal shanks, vegetables</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹850</option>
+                        <option value="large">Large - ₹1100</option>
+                    </select>
+                </div>
+            </div>
+            <div class="menu-card non-veg">
+                <h3>Masala Grilled Salmon</h3>
+                <p>Fresh Atlantic salmon, lemon herb butter</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹720</option>
+                        <option value="large">Large - ₹950</option>
+                    </select>
+                </div>
+            </div>
+            <div class="menu-card non-veg">
+                <h3>Beef Braciole Masala</h3>
+                <p>Stuffed beef rolls, tomato sauce</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹750</option>
+                        <option value="large">Large - ₹980</option>
+                    </select>
+                </div>
+            </div>
+            <div class="menu-card non-veg">
+                <h3>Seafood Linguine</h3>
+                <p>Mixed seafood, white wine, garlic</p>
+                <div class="menu-options">
+                    <select class="portion-select">
+                        <option value="regular">Regular - ₹680</option>
+                        <option value="large">Large - ₹880</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="availability">
+        <h2>Available Online</h2>
+        <div class="offer-grid">
+            <div class="offer-card">
+                <h3>Order on Zomato</h3>
+                <p>Enjoy fast delivery and exclusive restaurant deals directly on Zomato.</p>
+                <a href="https://www.zomato.com/" target="_blank" rel="noreferrer">Visit Zomato</a>
+            </div>
+            <div class="offer-card">
+                <h3>Order on Swiggy</h3>
+                <p>Get your favourite meals delivered hot and fresh through Swiggy.</p>
+                <a href="https://www.swiggy.com/" target="_blank" rel="noreferrer">Visit Swiggy</a>
+            </div>
+            <div class="offer-card">
+                <h3>Order on Uber Eats</h3>
+                <p>Find us on Uber Eats for convenient delivery and quick checkout.</p>
+                <a href="https://www.ubereats.com/" target="_blank" rel="noreferrer">Visit Uber Eats</a>
+            </div>
+        </div>
+        <div class="offer-highlights">
+            <div class="highlight-item">
+                <strong>Online Payment Accepted</strong>
+                <p>Pay securely with UPI, credit/debit cards, and net banking.</p>
+            </div>
+            <div class="highlight-item">
+                <strong>Free Gift on Orders ₹3000+</strong>
+                <p>Receive a special gift with every online order above ₹3000.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation">
+        <h2>Make a Reservation</h2>
+        <form id="reservation-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" required placeholder="Enter your phone number">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required placeholder="Enter your email address">
+                </div>
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" required>
+                        <option value="">Select guests</option>
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests</option>
+                        <option value="6">6+ Guests</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time</label>
+                    <input type="time" id="time" required>
+                </div>
+            </div>
+
+            <div class="form-row half">
+                <div class="form-group">
+                    <label for="occasion">Occasion (Optional)</label>
+                    <select id="occasion">
+                        <option value="">Select occasion</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="anniversary">Anniversary</option>
+                        <option value="business">Business Meeting</option>
+                        <option value="celebration">Celebration</option>
+                        <option value="casual">Casual Dining</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="special-requests">
+                <label for="requests">Special Requests (Optional)</label>
+                <textarea id="requests" placeholder="Any special dietary requirements, seating preferences, or other requests..."></textarea>
+            </div>
+
+            <button type="submit">Reserve Your Table</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 La Pasta Bella. All rights reserved.</p>
+        <p>Website created by Riya Chauhan, USN CS25166.</p>
+    </footer>
+
+    <script>
+        // Menu filter functionality
+        const filterButtons = document.querySelectorAll('.filter-buttons button');
+        const menuCards = document.querySelectorAll('.menu-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const filter = button.id.split('-')[0]; // 'all', 'veg', 'non'
+
+                menuCards.forEach(card => {
+                    if (filter === 'all') {
+                        card.style.display = 'block';
+                    } else if (card.classList.contains(filter)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Order button functionality
+        const orderButtons = document.querySelectorAll('.order-btn');
+        orderButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                const card = button.closest('.menu-card');
+                const dishName = card.querySelector('h3').textContent;
+                const portionSelect = card.querySelector('.portion-select');
+                const selectedOption = portionSelect.options[portionSelect.selectedIndex].text;
+                const orderType = button.classList.contains('dine-in') ? 'Dine-in' : 'Takeaway';
+
+                alert(`Added to ${orderType} order:\n${dishName}\n${selectedOption}\n\nThank you for your order! We'll prepare it shortly.`);
+            });
+        // Reservation form submission
+        document.getElementById('reservation-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            let message = 'Reservation Details:\n\n';
+
+            for (let [key, value] of formData.entries()) {
+                if (value) {
+                    message += `${key.charAt(0).toUpperCase() + key.slice(1)}: ${value}\n`;
+                }
+            }
+
+            alert(message + '\nThank you for your reservation! We will contact you shortly to confirm.');
+            this.reset();
+        });
+        document.getElementById('reservation-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            let message = 'Reservation Details:\n\n';
+
+            for (let [key, value] of formData.entries()) {
+                if (value) {
+                    message += `${key.charAt(0).toUpperCase() + key.slice(1)}: ${value}\n`;
+                }
+            }
+
+            alert(message + '\nThank you for your reservation! We will contact you shortly to confirm.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
