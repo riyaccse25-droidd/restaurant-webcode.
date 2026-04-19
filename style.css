@@ -9,7 +9,7 @@ body {
     background: #fafafa;
 }
 
-/* Header */
+/* Header section */
 header {
     text-align: center;
     padding: 20px;
@@ -21,7 +21,7 @@ header h1 {
     font-size: 40px;
 }
 
-/* Gallery */
+/* Gallery section*/
 .gallery {
     padding: 20px;
     text-align: center;
@@ -43,7 +43,7 @@ header h1 {
     border-radius: 8px;
 }
 
-/* Menu */
+/* Menu section*/
 .menu {
     padding: 20px;
 }
@@ -80,7 +80,7 @@ table th {
     background: #eee;
 }
 
-/* Reservation Form */
+/* Reservation Form table*/
 .reservation {
     padding: 20px;
 }
@@ -128,7 +128,7 @@ button:hover {
     background: #a91515;
 }
 
-/* Responsive */
+/* Responsive features*/
 @media (max-width: 768px) {
     .gallery .images {
         grid-template-columns: repeat(2, 1fr);
